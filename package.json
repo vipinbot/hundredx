@@ -5,7 +5,7 @@
   "dependencies": {
     "@ethersproject/contracts": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
-    "@privy-io/react-auth": "^1.91.0",
+    "@privy-io/react-auth": "^1.90.0",
     "@solana/spl-token-swap": "^0.4.3",
     "@solana/web3.js": "^1.95.3",
     "@testing-library/jest-dom": "^5.17.0",
@@ -17,26 +17,16 @@
     "buffer": "^6.0.3",
     "chart.js": "^4.4.4",
     "ethers": "^6.13.3",
-    "react": "^18.2.0",
+    "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.26.2",
-    "react-scripts": "5.0.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
     "web3": "^1.8.0"
   },
-  "devDependencies": {
-    "typescript": "4.9.5",
-    "npm-force-resolutions": "0.0.10"
-  },
-  "resolutions": {
-    "typescript": "4.9.5",
-    "viem": "1.19.11",
-    "abitype": "0.8.7",
-    "@privy-io/zod-querystring": "0.0.5"
-  },
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
