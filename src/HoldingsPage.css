@@ -1,0 +1,126 @@
+.holdings-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.balance-summary {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance-summary h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.total-balance {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.all-time-change {
+  color: green;
+  font-size: 14px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  background-color: #6a6ff5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.holdings-list {
+  margin-top: 20px;
+}
+
+.cash-summary {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tokens-summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+.coin-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.coin-info {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Ensures this takes up space to push the price to the right */
+}
+
+.coin-logo {
+  margin-right: 10px;
+}
+
+.coin-link {
+  text-decoration: none; /* Removes underline from the link */
+  color: inherit; /* Ensures the link inherits text color */
+}
+
+.coin-name {
+  color: black;
+  margin-right: 10px;
+}
+
+.coin-balance {
+  margin-left: 10px;
+  color: gray;
+}
+
+.price-change {
+  margin-left: auto;
+  color: red; /* You can change this to a dynamic color if needed */
+}
+
+.coin-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.coin-name {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.coin-balance {
+  font-size: 14px;
+  color: #555;
+}
+
+.price-change {
+  font-size: 14px;
+}
+
+.price-change.positive {
+  color: green;
+}
+
+.price-change.negative {
+  color: red;
+}
+
+.currency-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* This adds a 15px gap between the radio buttons and the confirm button */
+}

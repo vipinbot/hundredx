@@ -1,0 +1,61 @@
+{
+  "name": "memecoin-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@privy-io/react-auth": "^1.88.4",
+    "@solana/spl-token-swap": "^0.4.3",
+    "@solana/web3.js": "^1.95.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@uniswap/sdk-core": "^5.8.1",
+    "@uniswap/v3-sdk": "^3.17.1",
+    "axios": "^1.7.7",
+    "buffer": "^6.0.3",
+    "chart.js": "^4.4.4",
+    "ethers": "^6.13.3",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "viem": "^2.21.19",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "es2020": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

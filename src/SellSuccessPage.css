@@ -1,0 +1,59 @@
+.sell-success-page {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 32px;
+    color: #28a745;
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .content {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .navigation-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .nav-item {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .settings-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
