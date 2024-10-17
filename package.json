@@ -27,7 +27,7 @@
     "web3": "^1.8.0"
   },
   "devDependencies": {
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
