@@ -4,15 +4,13 @@
       {
         "src": "package.json",
         "use": "@vercel/node",
-        "config": { "maximumFileSizeToCacheInBytes": 10000000 }
+        "config": { 
+          "maximumFileSizeToCacheInBytes": 10000000,
+          "installCommand": "npm install --legacy-peer-deps"
+        }
       }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/index.html" }
-    ],
-    "build": {
-      "env": {
-        "NPM_FLAGS": "--legacy-peer-deps"
-      }
-    }
+    ]
   }
