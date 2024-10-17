@@ -144,7 +144,7 @@ const fetchCoinDataFromCoinGecko = async (coinId) => {
 };
 
 const privyConfig = {
-  appId: "cm1xf98nv036ze01sr4qxtfgs",
+  appId: "cm2di4ong01xws4uiucdsh8vt",
   appearance: {
     accentColor: "#6A6FF5",
     theme: "#FFFFFF",
