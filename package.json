@@ -5,7 +5,7 @@
   "dependencies": {
     "@ethersproject/contracts": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
-    "@privy-io/react-auth": "^1.88.4",
+    "@privy-io/react-auth": "^1.91.0",
     "@solana/spl-token-swap": "^0.4.3",
     "@solana/web3.js": "^1.95.3",
     "@testing-library/jest-dom": "^5.17.0",
@@ -17,18 +17,21 @@
     "buffer": "^6.0.3",
     "chart.js": "^4.4.4",
     "ethers": "^6.13.3",
-    "react": "^18.3.1",
+    "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
-    "viem": "^2.21.19",
+    "viem": "^2.21.28",
     "web-vitals": "^2.1.4",
     "web3": "^1.8.0"
   },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm install --legacy-peer-deps && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
