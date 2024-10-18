@@ -16,6 +16,14 @@ const SettingsPage = () => {
     const handleLogin = async () => {
       await login(); 
     };
+    
+    const handleBack = () => {
+      if (window.history.length > 1) {
+        navigate(-1);
+      } else {
+        navigate('/'); // Navigate to home or another default page
+      }
+    };
   
     const handleLogout = async () => {
       await logout();
@@ -33,7 +41,7 @@ const SettingsPage = () => {
     return (
       <div className="settings-container">
         <header>
-          <button onClick={() => navigate(-1)} className="back-button">Back</button>
+          <button onClick={handleBack} className="back-button">Back</button>
         </header>
   
         <div className="settings-content">

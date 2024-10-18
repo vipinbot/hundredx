@@ -363,13 +363,21 @@
   background-color: #f9f9f9;
 }
 
+.back-button-container {
+  padding: 10px 20px; /* Add padding around the button */
+  position: sticky; /* Make the button stick to the top */
+  top: 0; /* Stick to the top of the container */
+  background-color: #fff; /* Or match your app's background color */
+  z-index: 10; /* Ensure it's above other content */
+}
+
 .back-button {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
   background-color: #f1f1f1;
   border: 1px solid #ddd;
-  padding: 5px 10px;
+  padding: 12px 15px;
   font-size: 18px;
   border-radius: 5px;
   cursor: pointer;
