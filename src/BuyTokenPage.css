@@ -75,7 +75,9 @@
 }
 
 .swipe-to-buy {
+  margin-bottom: 80px; /* Adjust this value to move the button up */
   margin-top: 20px;
+  padding-bottom: 40px;
   width: 100%; /* This will allow the button to stretch to full width */
   display: flex;
   justify-content: center; /* Center align the button */
