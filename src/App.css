@@ -370,6 +370,7 @@
   top: 0; /* Stick to the top of the container */
   background-color: #fff; /* Or match your app's background color */
   z-index: 10; /* Ensure it's above other content */
+  margin-right: 350px;
 }
 
 .back-button {
@@ -451,14 +452,58 @@
   background-color: #ff6f6f;
 }
 
-.login-signup {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px; 
+.login-signup-button {
+  width: 100%;
+  max-width: 550px;
+  padding: 20px 40px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  background-color: #6A6FF5;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+.login-signup-button:hover {
+  background-color: #4f52c7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.login-signup-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+}
+
+.login-icon {
+  width: 140px;  /* Adjust size as needed */
+  height: auto;
+}
 
 
 
